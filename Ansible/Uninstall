@@ -1,2 +1,5 @@
 ### ANSIBLE UNINSTALL COMMAND
 sudo apt purge ansible -y
+
+### REMOVE UNUSED PACKAGES
+sudo apt autoremove -y
