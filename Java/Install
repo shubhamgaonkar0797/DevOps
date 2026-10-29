@@ -1,5 +1,6 @@
 sudo apt install default-jdk -y
 
+### EXPLAINATION
 sudo	          Runs the command with administrator privileges.
 apt           	Ubuntu's package manager.
 install       	Installs a software package.
