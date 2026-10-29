@@ -1,14 +1,11 @@
 ### STOP DOCKER SERVICE
-
 sudo systemctl stop docker
 sudo systemctl stop containerd
 
 ### UNINSTALL DOCKER PACKAGES
-
 sudo apt purge docker.io -y
 
 ### EXPLANATION
-
 sudo	            Runs the command with administrator privileges.
 apt              	Ubuntu's package-management tool.
 purge           	Uninstalls packages and removes their package-managed configuration files.
