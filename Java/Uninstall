@@ -1,0 +1,8 @@
+### Check installed Java packages
+dpkg -l | grep -E 'openjdk|default-jre|default-jdk'
+
+### JAVA UNINSTALL COMMAND
+sudo apt purge 'openjdk-*' 'default-jre*' 'default-jdk*'
+
+### REMOVE UNUSED PACKAGES
+sudo apt autoremove
