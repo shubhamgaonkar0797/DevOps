@@ -1,0 +1,7 @@
+sudo apt install default-jdk -y
+
+sudo	          Runs the command with administrator privileges.
+apt           	Ubuntu's package manager.
+install       	Installs a software package.
+default-jdk	    Installs Ubuntu's default JDK package, which depends on the Java version selected by your configured repositories.
+-y	            Automatically answers yes to installation prompts.
