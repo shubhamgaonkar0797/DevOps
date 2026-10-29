@@ -1,0 +1,4 @@
+### MINIKUBE STOP DELETE REMOVE COMMAND
+minikube stop
+minikube delete
+sudo rm /usr/local/bin/minikube
