@@ -1,0 +1,7 @@
+Comparison table
+Feature         	                    kubeadm                  	Kind                 	Minikube
+Main purpose                         	Build a cluster	          Test Kubernetes      	Learn and develop
+Runs nodes as Docker containers	      Not inherently          	Yes                  	Possible, with Docker driver
+Multi-node clusters                  	Yes                     	Yes	                  Yes
+Requires more manual setup           	Yes                     	Less                	Less
+Common use                          	Cluster administration   	CI/testing	          Beginner practice
