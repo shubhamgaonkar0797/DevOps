@@ -1,0 +1,3 @@
+### KIND UNINSTALL COMMAND
+kind delete clusters --all
+sudo rm -f /usr/local/bin/kind
