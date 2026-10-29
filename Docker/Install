@@ -1,1 +1,11 @@
+### DOCKER INSTALL COMMAND
 sudo apt install docker.io -y
+
+### DOCKER VERSION CHECK
+docker --version
+
+### DOCKER COMPOSE INSTALL COMMAND
+sudo apt install docker-compose -y
+
+### DOCKER COMPOSE VERSION CHECK
+docker compose version
