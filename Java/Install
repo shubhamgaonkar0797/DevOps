@@ -1,3 +1,4 @@
+### INSTALL COMMAND
 sudo apt install default-jdk -y
 
 ### EXPLAINATION
@@ -6,3 +7,6 @@ apt           	Ubuntu's package manager.
 install       	Installs a software package.
 default-jdk	    Installs Ubuntu's default JDK package, which depends on the Java version selected by your configured repositories.
 -y	            Automatically answers yes to installation prompts.
+
+### CHECK VERSION
+java --version
