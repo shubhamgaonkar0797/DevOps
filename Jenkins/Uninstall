@@ -1,0 +1,7 @@
+### JENKINS STOP DISABLE UNINSTALL COMMAND
+sudo systemctl stop jenkins
+sudo systemctl disable jenkins
+sudo apt purge jenkins -y
+
+### REMOVE UNUSED PACKAGES
+sudo apt autoremove
