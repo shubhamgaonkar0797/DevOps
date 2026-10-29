@@ -1,0 +1,2 @@
+### KUBECTL UNINSTALL COMMAND
+sudo rm /usr/local/bin/kubectl
