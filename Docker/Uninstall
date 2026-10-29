@@ -6,3 +6,15 @@ sudo systemctl stop containerd
 ### UNINSTALL DOCKER PACKAGES
 
 sudo apt purge docker.io -y
+
+### EXPLANATION
+
+sudo	            Runs the command with administrator privileges.
+apt              	Ubuntu's package-management tool.
+purge           	Uninstalls packages and removes their package-managed configuration files.
+-y              	Automatically answers yes to confirmation prompts.
+docker.io       	Docker Engine package provided by Ubuntu's repositories.
+docker-compose  	Package for Docker Compose, used to manage multi-container applications.
+docker-compose-v2	Package for Docker Compose V2, where available in the configured repositories.
+containerd      	Container runtime that manages container lifecycles.
+runc            	Low-level runtime used to create and run containers.
