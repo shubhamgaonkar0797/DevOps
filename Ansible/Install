@@ -1,0 +1,8 @@
+### ANSIBLE INSTALL COMMAND
+sudo apt install ansible -y
+
+### ANSIBLE VERSION CHECK
+ansible --version
+
+### TEST ANSIBLE LOCALLY
+ansible localhost -m ping -c local
