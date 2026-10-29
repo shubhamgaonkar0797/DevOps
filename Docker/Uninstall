@@ -1,0 +1,8 @@
+### STOP DOCKER SERVICE
+
+sudo systemctl stop docker
+sudo systemctl stop containerd
+
+### UNINSTALL DOCKER PACKAGES
+
+sudo apt purge docker.io -y
