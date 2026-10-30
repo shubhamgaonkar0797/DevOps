@@ -1,0 +1,12 @@
+### GRAFANA INSTALLATION THROUGH DOCKER CONTAINER
+docker network create monitoring
+docker pull grafana/grafana:12.2.0
+docker run -d \
+--name grafana \
+--network monitoring \
+-p 3000:3000 \
+--restart unless-stopped \
+grafana/grafana:12.2.0
+
+### GRAFANA VERSION CHECK THROUGH DOCKER
+docker exec grafana grafana server -v
