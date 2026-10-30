@@ -1,0 +1,12 @@
+### NODE EXPORTER INSTALL THROUGH DOCKER
+docker network create monitoring
+docker pull prom/node-exporter:v1.9.1
+docker run -d \
+--name node-exporter \
+--network monitoring \
+-p 9100:9100 \
+--restart unless-stopped \
+prom/node-exporter:v1.9.1
+
+### NODE EXPORTER VERSION CHECK THROUGH DOCKER
+docker exec node-exporter /bin/node_exporter --version
